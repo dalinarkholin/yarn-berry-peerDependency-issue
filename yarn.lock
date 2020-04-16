@@ -2508,7 +2508,6 @@ __metadata:
     pnp-webpack-plugin: ^1.6.0
     prettier: ^1.19.1
     prop-types: ^15.7.2
-    react: ^16.12.0
     react-app-polyfill: ^1.0.2
     react-autosuggest: ^9.3.2
     react-dnd: ^9.3.4
@@ -2546,6 +2545,8 @@ __metadata:
     webpack-dev-server: ^3.10.1
     whatwg-fetch: ^3.0.0
     yup: ^0.27.0
+  peerDependencies:
+    react: ^16.12.0
   languageName: unknown
   linkType: soft
 
@@ -2823,6 +2824,15 @@ __metadata:
   version: 2.2.1
   resolution: "@types/jwt-decode@npm:2.2.1"
   checksum: 2/7d0cce0a1906b1e90a410af2786964dc76b3c9641a5eb11ed2e12e09e07874361a15efbb0e2f8ac7553f097481cb668b21c7ad60ce89961fea854f2c7cdef764
+  languageName: node
+  linkType: hard
+
+"@types/keyv@npm:^3.1.1":
+  version: 3.1.1
+  resolution: "@types/keyv@npm:3.1.1"
+  dependencies:
+    "@types/node": "*"
+  checksum: 2/3aaf557d5b82e733d5a17b7f55af5d6be953363c3a594f006d64265790fe87c301c6e1400c0b6b1cf72add50a0ceddc25afb8231ab8302a2e5b6ebfbfac30e5d
   languageName: node
   linkType: hard
 
@@ -3157,6 +3167,15 @@ __metadata:
   version: 0.2.28
   resolution: "@types/relateurl@npm:0.2.28"
   checksum: 2/4ef1a209ad6f6b0d2abfb310c0e4bb10dd76cb17c911e763564fe440d4f88d7feb224e9a89df4352175a0159a60f484688f29011dcd9cbc5b423b41ada2d6f21
+  languageName: node
+  linkType: hard
+
+"@types/responselike@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "@types/responselike@npm:1.0.0"
+  dependencies:
+    "@types/node": "*"
+  checksum: 2/e6e6613c800aeda63e2331e753e8d21df1a2c9aa7a4bc71ed792a848e4811fc96e609759089355314a2318c76eff1f161499cd242044838ab1e6f56e463ebb9c
   languageName: node
   linkType: hard
 
@@ -15676,7 +15695,7 @@ typescript@3.5.3:
 
 "typescript@patch:typescript@3.5.3#builtin<compat/typescript>":
   version: 3.5.3
-  resolution: "typescript@patch:typescript@npm%3A3.5.3#builtin<compat/typescript>::version=3.5.3&hash=273569"
+  resolution: "typescript@patch:typescript@npm%3A3.5.3#builtin<compat/typescript>::version=3.5.3&hash=270b6c"
   bin:
     tsc: ./bin/tsc
     tsserver: ./bin/tsserver
