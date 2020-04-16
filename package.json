@@ -1,5 +1,5 @@
 {
-  "name": "yarnv2repro30",
+  "name": "peer-dependency-issue",
   "version": "1.0.0",
   "description": "Yarn v2 RC 30 repro",
   "main": "index.js",
